@@ -34,7 +34,7 @@ kramdown:
     - lax_spacing
     - with_toc_data
 
-tagline: A technology blog for myself.
+tagline: 曾因酒醉鞭名马，生怕情多累美人。
 
 
 ##### Menu
@@ -101,14 +101,18 @@ author:
 #### Toc
 toc:
   article: true   ## show contents in article.
-  aside: true     ## show contents in aside.
+  aside: false     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
 #### Links
 links:
   云客联盟: http://www.cloudker.com/
-
+  鱼C工作室: http://www.fishc.com/
+  看雪论坛: http://bbs.pediy.com/
+  Seebug: http://www.seebug.com/
+  FreeBuf: http://www.freebuf.com/
+  
 excerpt_separator: <!--more-->
 
 #### Comment
