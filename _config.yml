@@ -84,17 +84,17 @@ author:
   name: rootkit      ## e.g. wuchong Author name
   intro_line1:  "判共美人香草，零落江皋"    ## your introduction on the bottom of the page
   intro_line2:  "我不是什么黑客，我只是个懂安全的白帽子。"  ## the 2nd line
-  weibo: 菱歌深处     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo: cloudker     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:     ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:              ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:             ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu:              ## e.g. jark  for http://www.zhihu.com/people/jark
   email: 1903442252@qq.com     ## e.g. imjark@gmail.com
-  twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
+  twitter:            ## e.g. jarkwu for https://twitter.com/jarkwu
   github: cloudker    ## e.g. wuchong for https://github.com/wuchong
   facebook:           ## e.g. imjark for https://facebook.com/imjark
-  linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
-  google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
+  linkedin:           ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
+  google_plus:        ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow:      ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
