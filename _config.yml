@@ -3,7 +3,7 @@ title: 玉涵-江湖载酒志
 email: 1903442252@qq.com
 description: 我不是什么黑客，我只是个懂安全的白帽子。
 localurl: "" # the subpath of your site, e.g. /blog/
-url: http://cloudker.github.io/ # the base hostname & protocol for your site
+url: https://cloudker.github.io/ # the base hostname & protocol for your site
 me-img: "/img/HeadPicture.png"
 
 twitter_username:
@@ -113,7 +113,7 @@ excerpt_separator: <!--more-->
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname: rootkit    ## e.g. wuchong   your disqus short name.
+disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
