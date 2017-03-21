@@ -33,7 +33,10 @@ redcarpet:
     - tables
     - lax_spacing
     - with_toc_data
-
+    - fenced_code_blocks
+    - footnotes
+    - highlight
+    
 tagline: 曾因酒醉鞭名马，生怕情多累美人。
 
 
@@ -163,4 +166,5 @@ tinysou_search:     ## http://tinysou.com/
   enable: false
   id:  ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
 
-gems: [jekyll-paginate, jemoji]
+gems: ##[jekyll-paginate, jemoji]
+  - jemoji
