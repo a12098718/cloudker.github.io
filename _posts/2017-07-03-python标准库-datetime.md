@@ -655,6 +655,7 @@ return CONSTANT + self.dst(dt)  # daylight-aware class
 	- 一个tzinfo子类的实例tz模范了标准和白日时间必须为连续的：`tz.utcoffset(dt)-tz.dst(dt)`
 	- 对每个datetime dt，如有`dt.tzinfo==tz`，则必须返回相同的结果。对健全的tzinfo子类，表达式域、时区的“标准偏移”，不应该依赖于时间或日期，而仅应该依赖于地理位置。datetime.astimezone()的实现依赖于此，但是不能检测妨碍；这是程序员的职责来确保它。如果一个tzinfo子类不能保证，他应该可以覆盖默认的tzinfo.fromutc()实现来正确的工作不管astimezone()如何。
 	- 大部分dst()实现可能看起来像下面两个中的一个：
+
 ```python
 def dst(self, dt):
     # a fixed-offset class:  doesn't account for DST
