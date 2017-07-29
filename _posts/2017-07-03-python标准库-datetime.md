@@ -670,7 +670,7 @@ def dst(self, dt):
     else:
         return timedelta(0)
 ```
-	- 
+	- padding
 - tzinfo.tzname(self,dt)
 	- 返回时间域的字符串，名称和datetime对象dt一致。string名称相关的任何事物都没有在datetime模块定义，也没有需求如此这意味着任何东西都是特别的。例如，"GMT","UTC","-500","-5：00","EDT","US/Eastern","America/New York"都是有效的答复。当string名称不知道时，返回None。注意到比起一个修正的字符串这更是一个方法，因为一些tzinfo子类可能希望返回依赖特定dt传递值的不同名字，特别是tzinfo类计数白天的时间。
 	- tzname()的默认实现抛NotImplementedError。
