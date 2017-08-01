@@ -578,7 +578,7 @@ tasksche会复制自己到C:\ProgramData\jdjxwsaumu506目录下，该目录名�
 ![](/img/posts/Security/Wannacry/20170521_5.jpg)
 
 根据条件判断：
-```c
+```cpp
  if ( v5 )
   {
     InternetCloseHandle(v4);
@@ -635,7 +635,7 @@ icacls.exe . /grant Everyone:F /T /C /Q
 ```
 是用来修改文件的隐藏属性以及权限。我们跟到sub_4014A6中，前面的几个函数就不再展开了，和log中的行为相对应。
 
-```c
+```cpp
 int __thiscall sub_4014A6(void *this, LPCSTR lpFileName, int a3)
 {
   void *v3; // esi@1
